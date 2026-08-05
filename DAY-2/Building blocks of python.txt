@@ -1,0 +1,63 @@
+Building blocks of python
+--Tokens : smallest unit of python program
+example
+n = 10
+tokens are : n 
+             =
+            10
+represented in five ways
+1.identifier : name of function , class , module .....
+rules - 1.contains uppercase, lowercase, digits, underscore
+        2.no special character is allowed
+        3.does not start with digits or numbers
+        4. keywords are not allowed
+        5. case sensitive
+---variable : container to store value
+2.operators : + = - < >
+3.literals : any value ex: 10, 1, 12....
+4.keywords : predefined words 
+-- there are 35 keywords in python
+['False', 'None', 'True', 'and', 'as', 'assert', 'async', 'await', 'break', 'class', 'continue', 'def', 'del', 'elif', 'else', 'except', 'finally', 'for', 'from', 'global', 'if', 'import', 'in', 'is', 'lambda', 'nonlocal', 'not', 'or', 'pass', 'raise', 'return', 'try', 'while', 'with', 'yield']
+False – Represents the boolean value False.
+None – Represents the absence of a value.
+True – Represents the boolean value True.
+and – Returns True if both conditions are true.
+as – Assigns an alias to a module or exception.
+assert – Checks a condition and raises an error if it is false.
+async – Declares an asynchronous function.
+await – Waits for an asynchronous task to complete.
+break – Exits the current loop immediately.
+class – Defines a new class.
+continue – Skips the current iteration and moves to the next one.
+def – Defines a function.
+del – Deletes an object, variable, or item.
+elif – Checks another condition after if.
+else – Executes when the preceding condition is false.
+except – Handles exceptions (errors).
+finally – Executes code regardless of whether an exception occurs.
+for – Iterates over a sequence.
+from – Imports specific objects from a module.
+global – Declares a variable as global.
+if – Executes code based on a condition.
+import – Imports a module.
+in – Checks membership in a sequence or collection.
+is – Checks whether two objects refer to the same object.
+lambda – Creates an anonymous (unnamed) function.
+nonlocal – Refers to a variable in the nearest enclosing function.
+not – Reverses a boolean value.
+or – Returns True if at least one condition is true.
+pass – Placeholder statement that performs no action.
+raise – Raises an exception manually.
+return – Returns a value from a function.
+try – Starts a block for exception handling.
+while – Repeats a block of code while a condition is true.
+with – Manages resources automatically (e.g., files).
+yield – Returns a value from a generator without ending the function.
+match – Starts a pattern-matching statement.
+case – Defines a pattern inside a match statement.
+5.Punctuators : special symbols used to organize the structure of a Python program
+
+Statement - each line of code is called statement
+comments - to make the code readable we write some description
+  single line comment : use #
+  multi-line comment : use '''    '''

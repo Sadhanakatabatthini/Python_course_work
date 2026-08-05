@@ -1,0 +1,30 @@
+Features of python:
+-Platform independent
+-dynamic typing
+-open source
+-built in data structures & Libraries
+-automatic memory management
+-exception handling
+-support for AI&Ml
+-Interpreted language
+-simple syntax
+
+CLASS - it is a blue print or a template
+OBJECT - Instance of class 
+ENTITY - Real world object like person , place that as unique identity
+
+Yes, Python is both a procedural and an object-oriented programming language. It is actually called a multi-paradigm programming language because it supports multiple programming styles.
+
+1. Procedural Programming - does not depend on user
+The program is organized as a sequence of functions and statements.
+Focuses on procedures (functions) to perform tasks.
+Suitable for small and straightforward programs.
+
+2. Object-Oriented Programming (OOP) - depends on user
+The program is organized around objects and classes.
+Focuses on modeling real-world entities.
+Supports the four OOP principles:
+Encapsulation - Encapsulation is the process of wrapping data (variables) and methods (functions) into a single unit (class) and restricting direct access to the data.
+Inheritance - Inheritance allows one class (child class) to inherit the properties and methods of another class (parent class).
+Polymorphism - Polymorphism means "many forms." The same method or function can behave differently for different objects.
+Abstraction - Abstraction means hiding implementation details and showing only the essential features to the user.
