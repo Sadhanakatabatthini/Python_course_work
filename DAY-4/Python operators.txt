@@ -1,0 +1,67 @@
+Python operators
+----------------
+1. arithmetical operators  
+      addition(+)
+      subtraction(-)
+      Multiplication(*)
+      division(/)
+      modulus(%)
+      floor division(//)
+2. comparison operators
+	solution for this operators is a Boolean value
+	less than (<)
+	greater than (>)
+	less than or equal to (<=)
+	greater than or equal to (>=)	
+3. assignment operators 
+a = 20
+a = a+10
+a
+30
+a = a+20
+a
+50
+a +=10
+a
+60
+a -=10
+a
+50
+a *=20
+a
+1000
+a //=2
+a
+500
+3. relational operators
+	and - all the operations should be TRUE
+	or - any one operation should be TRUE
+	not - TRUE - FALSE , FALSE - TRUE
+4. membership operations  
+	checks whether the value is present in or not in and gives a Boolean value as output
+5. identity operators
+l = [1,2,3,4]
+m = [1,2,3,4]
+id(l)
+2159142386816
+id(m)
+2159137137856
+l == m
+True
+l is m
+False
+n = m
+n
+[1, 2, 3, 4]
+id(n)
+2159137137856
+m is n
+True
+n is m
+True
+n is l
+False
+n is not l
+True
+6. bitwise operators 
+	| ^ ~ << >>
