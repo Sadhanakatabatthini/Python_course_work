@@ -1,0 +1,33 @@
+# Input formatting
+Input means taking data or information from the user during the execution of a program.
+In Python, user input is taken using the input() function. 
+ex: variable = input()
+The input() function is a built-in Python function used to accept data from the user through the keyboard.
+This function always returns the entered value as a string (str).
+----------------------------------------------------------------------------
+# Type Conversions with Input
+Type conversion means converting a value from one data type to another.
+Common conversion functions used with input() are:
+int() → converts to integer
+float() → converts to floating-point number
+str() → converts to string
+----------------------------------------------------------------------------
+# string Splitting
+split() is a string method used to divide a string into multiple parts based on a separator.
+Syntax: string.split(separator)
+input().split() - Used to take multiple values in a single line.
+Since split() returns a list, it can be converted into other collections:
+tuple(input().split())
+set(input().split())
+split() → list
+tuple(split()) → tuple
+set(split()) → set
+-------------------------------------------------------------------------------
+# Map Function
+map() is a built-in Python function used to apply a given function to every element of an iterable such as a list, tuple, or set.
+Syntax: map(function, iterable)
+Ex: map(int, marks)
+---------------------------------------------------------------------------------
+# eval function
+eval() is a built-in Python function that evaluates a string as a Python expression and returns the resulting value.
+Syntax: eval(expression)
