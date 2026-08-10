@@ -1,0 +1,20 @@
+STRINGS
+-string is a set of characters enclosed in a single or double cotations
+--string operations
+	-Concatenation
+	-Repetition
+	-Indexing
+	-Slicing
+	-Membership
+---------------------------------------------------------------------------
+String Methods
+-len()
+-ord()
+-char()
+-sorted()
+-min()
+-max()
+
+	
+
+
