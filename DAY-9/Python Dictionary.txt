@@ -1,0 +1,74 @@
+Python Dictionary 
+Dictionary is mutable, ordered, heterogeneous and dynamic.
+Syntax: d = {key: value}
+Empty dictionary: d = {}
+Keys must be unique.
+Values can be any data type.
+
+Dictionary Keys - Keys must be hashable (immutable).
+
+Valid keys: int, float, str, tuple, complex, bool, frozenset
+
+Invalid keys: list, set, dict
+
+Example:
+d[(1,2,3)] = 1      # Valid
+d[[1,2,3]] = 1      # TypeError
+
+Accessing Values
+data['name'] - Directly accesses the value.
+If key doesn't exist → KeyError.
+data.get('name') - Safely accesses the value.
+If key doesn't exist → returns None.
+data.get('age', 'key is not present')
+Returns the given default value if key is absent.
+
+Membership Operator - Dictionary membership checks keys only.
+'name' in data       # True
+'dinesh' in data     # False
+65 in data           # False
+
+Adding / Updating
+data['age'] = 22
+data.update({'email':'abc@gmail.com', 'py':2026})
+
+Removing Elements
+data.pop('course')   # Removes specified key
+data.popitem()       # Removes last key-value pair
+data.clear()         # Removes all elements
+
+Dictionary Methods
+data.keys()      # All keys
+data.values()    # All values
+data.items()     # Key-value pairs
+
+Example:
+data.items()
+# [('name', 'dinesh'), ('course', 'pfs')]
+
+Other Operations
+len(data)        # Number of key-value pairs
+sorted(data)     # Sorted keys
+max(data)        # Maximum key
+min(data)        # Minimum key
+
+Copy vs Assignment
+m = d
+Both refer to the same dictionary.
+Changes in m affect d.
+n = d.copy()
+Creates a separate copy.
+Changes in n don't affect d.
+
+setdefault()
+data.setdefault('name', 2026)
+If key exists → returns existing value.
+If key doesn't exist → adds the key with the given value.
+data.setdefault('key', 2026)
+# Adds 'key': 2026
+
+fromkeys() - Creates a dictionary using given keys with a common value.
+
+dict.fromkeys(["python", "mysql", "java"], 0)
+
+Output: {'python': 0, 'mysql': 0, 'java': 0}
