@@ -1,0 +1,15 @@
+function 
+-function is a block of reusable code to perform a specific task
+
+Advantages
+-resuability
+-modularity
+-easy debugging
+-code is organized
+-avoids code repetition
+-easy maintenance
+-saves time
+-improves readability
+-supports input and output
+-provides abstraction 
+
